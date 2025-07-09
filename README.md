@@ -2,10 +2,10 @@
 
 This project focuses on predicting the stock prices of Apple Inc. (AAPL) using Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN). LSTM models are particularly effective for sequential data like stock prices due to their ability to capture long-term dependencies.
 
-Dataset
+DATASET:
 The dataset used for this project consists of historical stock price data for Apple Inc.
 
-###Methodology
+##METHODOLOGY:
 Datapreprocessing: The raw stock price data is preprocessed to handle missing values, normalize the features, and create sequential input-output pairs suitable for training LSTM models.
 
 Model Training: LSTM models are trained using the preprocessed data. The models are configured with appropriate hyperparameters and trained on a subset of the data. The training process involves optimizing the model parameters to minimize the prediction error.
