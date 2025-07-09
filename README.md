@@ -15,6 +15,8 @@ Model Evaluation: The trained LSTM models are evaluated using a separate test da
 
 Prediction: Once trained and evaluated, the LSTM models are used to make predictions for future stock prices. These predictions provide insights into potential price movements and trends, aiding investors in making informed decisions.
 
+
+
 ##Repository Structure:
 
 Data: 'AAPL.csv' contains the raw and preprocessed datasets used for training and testing.
@@ -23,7 +25,10 @@ Notebooks: 'Apple_Stock_Price_Prediction.ipynb' contains the google colab with c
 
 Models: Saved model checkpoints or files for the trained LSTM models.
 
-README.md: This document providing an overview of the project and instructions for replicating the analysis
+README.md: This document providing an overview of the project and instructions for replicating the analysis.
+
+
+
 
 ##Usage:
 
@@ -39,6 +44,8 @@ README.md: This document providing an overview of the project and instructions f
 
 -Experiment with different hyperparameters, architectures, or features to improve the model's accuracy.
 
+
+
 ##Used Dependencies Library:
 
 
@@ -53,4 +60,7 @@ matplotlib	→ Data Visualization
 Scikit-learn	→ Data preprocessing(MinMaxScaler)
 
 tensorflow	→ Building and training LSTM model
+
+
+Short video of project link: https://drive.google.com/file/d/1OqpFjYgVECJF8avcOXwGkSnttIBee3Zt/view?usp=drivesdk
 
